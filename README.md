@@ -11,10 +11,15 @@ keywords:
 png [width] [height] [output filename]
 
 color [R value from 0.0 to 1.0] [G value] [B value]
+
 sphere [x coordinate] [y coordinate] [z coordinate]
+
 sun [ray's x direction] [y direction] [z direction]
+
 plane [A] [B] [C] [D] 
+
 xyz [vertex A position] [vertex B position] [vertex C position] 
+
 tri [vertex index 1] [vertex index 2] [vertex index 3]
 
 keyword notes:
