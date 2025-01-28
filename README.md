@@ -11,19 +11,19 @@ After downloading the Makefile, in the command line, run: python raytracer.py $(
 
 **keywords**
 
-| png [width] [height] [output filename] |
+png [width] [height] [output filename]
 
-| color [R value from 0.0 to 1.0] [G value] [B value] |
+color [R value from 0.0 to 1.0] [G value] [B value]
 
-| sphere [x coordinate] [y coordinate] [z coordinate] |
+sphere [x coordinate] [y coordinate] [z coordinate]
 
-| sun [ray's x direction] [y direction] [z direction] |
+sun [ray's x direction] [y direction] [z direction]
 
-| plane [A] [B] [C] [D] |
+plane [A] [B] [C] [D]
 
-| xyz [vertex A position] [vertex B position] [vertex C position] |
+xyz [vertex A position] [vertex B position] [vertex C position]
 
-| tri [vertex index 1] [vertex index 2] [vertex index 3] |
+tri [vertex index 1] [vertex index 2] [vertex index 3]
 
 
 **keyword notes**
@@ -38,13 +38,13 @@ Sample txt file:
 
 | png 80 100 color.png |
 
-| color 1 1 1 |
-| sphere 0 0 -1 0.3 |
-| color 1 0.5 0 |
-| sphere -1 -0.8 -1 0.5 |
+color 1 1 1
+sphere 0 0 -1 0.3
+color 1 0.5 0
+sphere -1 -0.8 -1 0.5
 
-| color 0.5 1 1 |
-| sun 1 2 1 |
+color 0.5 1 1
+sun 1 2 1
 
 
 Sample output:
