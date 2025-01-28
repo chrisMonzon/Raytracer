@@ -1,14 +1,17 @@
 # Raytracer
 Raytracer built from scratch in Python that is capable of rendering spheres, planes, and triangles, provided by a txt file
 
+
 # Running the program
 After downloading the Makefile, in the command line, run: python raytracer.py $(textfile name)
 
+
 # txt file syntax:
+
 
 **keywords**
 
-'png [width] [height] [output filename]
+`png [width] [height] [output filename]
 
 color [R value from 0.0 to 1.0] [G value] [B value]
 
@@ -20,7 +23,8 @@ plane [A] [B] [C] [D]
 
 xyz [vertex A position] [vertex B position] [vertex C position] 
 
-tri [vertex index 1] [vertex index 2] [vertex index 3]'
+tri [vertex index 1] [vertex index 2] [vertex index 3]`
+
 
 **keyword notes**
 - objects are visible in the coordinate range of [-1, 1] along the x, y, z axes
@@ -32,7 +36,7 @@ tri [vertex index 1] [vertex index 2] [vertex index 3]'
 
 Sample txt file:
 
-'png 80 100 color.png
+`png 80 100 color.png
 
 color 1 1 1
 sphere 0 0 -1 0.3
@@ -40,8 +44,9 @@ color 1 0.5 0
 sphere -1 -0.8 -1 0.5
 
 color 0.5 1 1
-sun 1 2 1'
+sun 1 2 1`
 
 
 Sample output:
+
 ![color](https://github.com/user-attachments/assets/760bc489-9ac1-4732-8e9f-9d42aa2c7bda)
